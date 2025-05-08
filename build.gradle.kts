@@ -1,6 +1,6 @@
 plugins {
     java
-    id("org.springframework.boot") version "3.4.5"
+    id("org.springframework.boot") version "3.4.4"
     id("io.spring.dependency-management") version "1.1.7"
 }
 
@@ -24,8 +24,8 @@ repositories {
 }
 
 dependencies {
-    implementation("org.apache.activemq:artemis-server:2.41.0")
-    implementation("org.apache.activemq:artemis-jms-server:2.41.0")
+    implementation("org.apache.activemq:artemis-server")
+    implementation("org.apache.activemq:artemis-jms-server")
     implementation("org.springframework.boot:spring-boot-starter-artemis")
     implementation("org.springframework.boot:spring-boot-starter-web")
     compileOnly("org.projectlombok:lombok")

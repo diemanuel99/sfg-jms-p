@@ -24,6 +24,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.apache.activemq:artemis-server:2.41.0")
+    implementation("org.apache.activemq:artemis-jms-server:2.41.0")
     implementation("org.springframework.boot:spring-boot-starter-artemis")
     implementation("org.springframework.boot:spring-boot-starter-web")
     compileOnly("org.projectlombok:lombok")

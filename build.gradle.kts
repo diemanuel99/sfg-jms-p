@@ -24,10 +24,10 @@ repositories {
 }
 
 dependencies {
-    implementation("org.apache.activemq:artemis-server")
-    implementation("org.apache.activemq:artemis-jms-server")
     implementation("org.springframework.boot:spring-boot-starter-artemis")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.apache.activemq:artemis-server")
+    implementation("org.apache.activemq:artemis-jms-server")
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
